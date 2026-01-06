@@ -6,7 +6,7 @@ title: bdionello
 
 #change it according to your repository name
 # disabling since we are using a custom domain
-baseurl: '/bdionello.github.io' 
+#baseurl: '/online-cv' 
 
 description: Personal Portfolio of Brett Dionello
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
