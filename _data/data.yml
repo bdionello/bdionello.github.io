@@ -4,56 +4,38 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  # about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Brett Dionello
+  tagline: Computer & Electronics Engineer
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
-
+  email: brettdion@live.ca
+  phone: 403 607 8219
+  linkedin: bdionello
+  github: bdionello
+  pdf: "./docs/BrettD_Resume_2025.pdf"
   languages:
     title: Languages
     info:
     - idiom: English
       level: Native
 
-    - idiom: French
-      level: Professional
+    - idiom: Italian
+      level: Beginner
 
-    - idiom: Spanish
-      level: Professional
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Woodwork
       link:
 
 
-    - item: Snowboarding
+    - item: Martial Arts
       link:
 
 
@@ -61,226 +43,119 @@ sidebar:
       link:
 
 
+    - item: Classical Guitar
+    link:
+
+
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    I recently completed a Bachelors of Engineering in Computer Engineering which included 12 months of co-op work experience.
+    My primary interests are in embedded systems, firmware, digital signal processing, controls and communication systems.
+    Additionally, I have an Electronics Engineering Technologist Diploma and 2 years of experience in SCADA and telemetry as a technologist and field technician.
+    I am also a Red Seal Journeyman Cabinetmaker with vast experience over 8 years including fine woodwork, commercial millwork, installations, flooring, carpentry and framing, timber framing and renovation work. 
+    I am a passionate worker and strive for high quality craftsmanship in everything that I do, and I am excited to apply my diverse skillset to my next challenge and career journey. 
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: B.Eng in Computer Engineering
+    university: University of Victoria
+    time: 2023 - 2025
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+
+  - degree: Advanced Diploma in Engineering
+    university: Camosun College
+    time: 2022-2023
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+
+  - degree: Electronics Engineering Technologist Diploma
+    university: Southern Alberta Institute of Technology
+    time: 2017 - 2019
+    details: |
+
+  - degree: Red Seal Cabinet Maker Journeyman Certificate
+    university: Southern Alberta Institute of Technology
+    time: 2010 - 2014
+    details: |
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Biomedical Engineering Co-op Student
+    time: January 2024 - May 2024
+    company: Vivitro Labs Inc. Victoria, BC
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      - Build and test proof of concept prototypes for an electromagnetic flow meter. 
+      - Create Electrical systems. 
+      - Design parts/systems/subsystems according to design control procedures. 
+      - Document design according to design/document control procedures. 
+      - Verify design and validate product prototypes. 
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - role: Embedded Software Co-op Student
+    time: May 2023 - Sept 2023
+    company: Reach Technologies Inc. Victoria, BC
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      - Integrated a SQL based configuration database using Microsoft Azure and NuGet package management. 
+      - Contributed to the development of a video processing application in C#. 
+      - Developed Linux systems using PetaLinux and Vivado for a Kria SOM development board to be used in a camera stabilization platform. 
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+  - role: Electrical Engineering Co-op Student
+    time: May 2022 - Sept 2022
+    company: Nicholson Manfucaturing Ltd. Sidney, BC
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      - Devised a 3D-Scanning in-feed detection system, interfacing an Allen-Bradley PLC over EtherNet/IP to an HMI while programming functional-block and structured-text in CodeSYS to develop a functional prototype. 
+      - Collaborated with Engineering to make schematic revisions on electrical panels, using AutoCAD and version control software to update large batches of drawings. 
+      - Cooperated with engineering and manufacturing departments to perform quality assurance testing on electrical control panels; deploying RSLogix500 to program and test the PLC and verifying correct functionality of panel inputs and outputs. 
+
+  - role: Field Service Technician/Technologist
+    time: April 2019 - June 2021
+    company: Bentek Systems Ltd. Calgary, Alberta
+    details: |
+      - Performed on site services for SCADA and telemetry systems, installing antenna, feedline and transceivers, testing with cable testers, watt-meters and diagnostic software, resulting in robust systems and dozens of positive service reviews. 
+      - Collaborated with Engineering and production to commission communication and control devices, installing firmware, configuring to specifications and performing functional tests to facilitate the delivery hundreds of high-quality products. 
+      - Consulted with Engineering to develop a cellular-IOT product; utilizing the XBee-3 hardware, MQTT protocol and programmed in micro-python, resulting in a prototype RTU with similar functionality of existing products within the company.
 
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Some notable projects completed over the course of my academic journey. 
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: SAIT ENT Capstone project 2019
+    image: Saitcapstone.jpg
+    link: "./docs/SAITcapstone.pdf"
+    tagline: "Custom made temperature controller and SCADA system."    
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: MPPT Controller - ECE499 UVIC Capstone Project 2024
+    image: Uviccapstone.png
+    link: "./docs/499report.pdf"
+    tagline: "A fully functional MPPT Solar controller/charger."
+    code: github
+    codelink: https://github.com/bdionello/ECE499
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: KelpNet - ECE356 UVIC Ocean Challenge event 2023
+    image: kelpnet.png
+    link: "./docs/KelpnetPoster.pdf"
+    tagline: "A fully Integrated electronics control and monitoring system for Kelp farms."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Digital filters embedded systems project - UVIC SENG440 
+    image: filter.png
+    link: "./docs/ece440finalreport.pdf"
+    tagline: "An optimised digital filter implemented in C and assembly on a Beaglebone Black ARM CPU."
+    code: github
+    codelink: https://github.com/bdionello/SENG440
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
-
-skills:
-  title: Skills &amp; Proficiency
-
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+  - title: 16bit CPU project - UVIC ECE449
+    image: cpu.png
+    link: "./docs/ECE449_Final_Report_BD_AA_2025.pdf"
+    tagline: "A 5 stage pipeline CPU implemented in VHDL on a basys3 development board." 
+    code: github
+    codelink: https://github.com/bdionello/16bit-CPU-basys3
+    
+  - title: Remote LORA Weather monitor station  - UVIC ECE399
+    image: weathermen.png
+    link: "./docs/399report.pdf"
+    tagline: "A remote weather monitoring station using ESP32-Lora development boards."
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -19,6 +19,10 @@
   {% for project in projects.assignments %}
     <div class="item">
 
+      {% if project.image %}
+        <img class="project-image" src="{{ site.baseurl }}/assets/images/{{ project.image }}" alt="project image" /><br>
+      {% endif %}
+
       <span class="project-title">
         {% if project.link %}
         <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
@@ -30,6 +34,14 @@
       {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
+
+      <span class="project-code">
+        {% if project.codelink %}
+        <a href="{{ project.codelink }}" target="_blank">{{ project.code }}</a>
+        {% else %}
+        {{ project.code }}
+        {% endif %}
+      </span>
 
     </div><!--//item-->
   {% endfor %}
