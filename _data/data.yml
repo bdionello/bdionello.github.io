@@ -137,6 +137,8 @@ projects:
     image: kelpnet.png
     link: "./docs/KelpnetPoster.pdf"
     tagline: "A fully Integrated electronics control and monitoring system for Kelp farms."
+    code: github
+    codelink: https://github.com/bdionello/Kelpnet
 
   - title: Digital filters embedded systems project - UVIC SENG440 
     image: filter.png
