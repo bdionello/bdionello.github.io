@@ -86,11 +86,12 @@ experiences:
     time: January 2024 - May 2024
     company: Vivitro Labs Inc. Victoria, BC
     details: |
-      - Build and test proof of concept prototypes for an electromagnetic flow meter. 
-      - Create Electrical systems. 
+      - Used solidworks to design and 3D print prototypes for an electromagnetic flow meter.
+      - Designed electrical systems for an electromagnetic flow meter.
+      - Wrote a testing program in LabVIEW.
       - Design parts/systems/subsystems according to design control procedures. 
       - Document design according to design/document control procedures. 
-      - Verify design and validate product prototypes. 
+      - Verify design and validate product prototypes.
 
   - role: Embedded Software Co-op Student
     time: May 2023 - Sept 2023
@@ -119,17 +120,27 @@ experiences:
 projects:
   title: Projects
   intro: >
-    Some notable projects completed over the course of my academic journey. 
+    Some notable projects completed over the course of my academic journey.<br>
+    - Click the links for more details.  
   assignments:
   - title: SAIT ENT Capstone project 2019
-    image: Saitcapstone.jpg
+    image: saitcapstone.png
     link: "./docs/SAITcapstone.pdf"
-    tagline: "Custom made temperature controller and SCADA system."    
+    tagline: "Custom made temperature controller and SCADA system."
+    details: | 
+      - PCB in Altium designer
+      - Designed an instrumentation amplifier for an RTD sensor
+      - Custom chassis made in fabrication shop
+      - Arm Microcontroller programed in C  
 
   - title: MPPT Controller - ECE499 UVIC Capstone Project 2024
     image: Uviccapstone.png
     link: "./docs/499report.pdf"
     tagline: "A fully functional MPPT Solar controller/charger."
+    details: |
+      - Custom PCB by hand on perf board
+      - STM32 Microcontroller programmed in C
+      - State machine control program
     code: github
     codelink: https://github.com/bdionello/ECE499
 
@@ -137,6 +148,14 @@ projects:
     image: kelpnet.png
     link: "./docs/KelpnetPoster.pdf"
     tagline: "A fully Integrated electronics control and monitoring system for Kelp farms."
+    details: |
+      - Raspberry pi for gateway and remote unit
+      - Programmed in Python, Javascript and C++ 
+      - Arduino Uno for sensor controller
+      - RS485 modbus data link between Rasberry pi unit and sensor controller
+      - Wifi data link to AWS IOT server
+      - Grafana data visualization 
+      - Awarded 2nd place for project demo
     code: github
     codelink: https://github.com/bdionello/Kelpnet
 
@@ -144,6 +163,10 @@ projects:
     image: filter.png
     link: "./docs/ece440finalreport.pdf"
     tagline: "An optimised digital filter implemented in C and assembly on a Beaglebone Black ARM CPU."
+    details: |
+      - Second order low pass IIR butterworth filter
+      - Sample rate 100 kHz, Cut-off frequency 2 kHz, Attenuation 29dB @ 8kHz
+      - AM3358 Arm Processor
     code: github
     codelink: https://github.com/bdionello/SENG440
 
@@ -151,13 +174,42 @@ projects:
     image: cpu.png
     link: "./docs/ECE449_Final_Report_BD_AA_2025.pdf"
     tagline: "A 5 stage pipeline CPU implemented in VHDL on a basys3 development board." 
+    details: | 
+      - Custom instruction set based on MIPS
+      - Control and data hazards are handled
+      - Includes an STM32 Arm co-processor to act as bootloader and debug interface
+      - Designed in Vivado
+      - Was the only functioning project in the class 
     code: github
     codelink: https://github.com/bdionello/16bit-CPU-basys3
     
-  - title: Remote LORA Weather monitor station  - UVIC ECE399
+  - title: Remote LORA Weather monitor station  - UVIC ECE399 - Ocean Challenge event 2023
     image: weathermen.png
     link: "./docs/399report.pdf"
     tagline: "A remote weather monitoring station using ESP32-Lora development boards."
+    details: |
+      - Implemented using FTS loaned weather station components
+      - Utilizing Lora-WAN and MQTT
+    code: github 
+    codelink: https://github.com/bdionello/Weatherstation
+
+  - title: ECE 455 - FreeRTOS project 1 - Traffic Light System (TLS)
+    image: TLS.png
+    link: "./docs/ECE455-Project1-TLS-Report_2025.pdf"
+    tagline: "A simulated traffic light system written in C code using FreeRTOS on an STM32 microcontroller"
+    code: github
+    codelink: https://github.com/bdionello/ECE455
+
+  - title: ECE 455 - FreeRTOS project 2 - Deadline-Driven Scheduler (DDS)
+    link: "./docs/ECE455_DDS_Report_BD_MJ_2025.pdf"
+    tagline: "A deadline driven task scheduler written in C code using FreeRTOS on an STM32 microcontroller"
+    code: github
+    codelink: https://github.com/bdionello/ECE455
+
+  - title: CSC349A - Numerical Analysis - Matlab tool library
+    tagline: "A set of tools written in Matlab for solving numerical analysis problems"
+    code: github
+    codelink: https://github.com/bdionello/Numerical-Analysis-Tools
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
