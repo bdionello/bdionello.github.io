@@ -17,7 +17,7 @@ sidebar:
   phone: 403 607 8219
   linkedin: bdionello
   github: bdionello
-  pdf: "./docs/BrettD_Resume_2025.pdf"
+  pdf: "./docs/BrettDionelloResume2026.pdf"
   languages:
     title: Languages
     info:
@@ -25,7 +25,7 @@ sidebar:
       level: Native
 
     - idiom: Italian
-      level: Beginner
+      level: Novice
 
 
   interests:
