@@ -211,5 +211,38 @@ projects:
     code: github
     codelink: https://github.com/bdionello/Numerical-Analysis-Tools
 
+  
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+  - name: Linux
+    level: 70%
+
+  - name: C - Language
+    level: 70%
+
+  - name: Python
+    level: 60%
+
+  - name: 3D CAD / Modeling
+    level: 75%
+
+  - name: Matlab
+    level: 65%
+
+  - name: Altium Designer
+    level: 50%
+    
+  - name: Electronics test equipment
+    level: 85%
+
+  - name: Soldering 
+    level: 95%
+  
+  - name: Wiring and Harnesses
+    level: 95%
+
+
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
