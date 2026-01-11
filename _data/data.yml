@@ -193,6 +193,19 @@ projects:
     code: github 
     codelink: https://github.com/bdionello/Weatherstation
 
+  - title: Design and analysis of a DAQ - UVIC ENGR446
+    image: DAQ.png
+    link: "./docs/ECE446-FinalReport.pdf"
+    tagline: "A design report I wrote about the process of designing and performing noise analysis on a digital acquisition unit (DAQ)"
+    details: |
+      - 16-bit SAR ADC
+      - Designed for use with RTD sensors or strain gauges
+      - System accuracy 680.3uV (0.139% RTI)
+      - Noise 130nVrms
+      - Simulated in LTspice
+    code: github 
+    codelink: https://github.com/bdionello/Weatherstation
+
   - title: ECE 455 - FreeRTOS project 1 - Traffic Light System (TLS)
     image: TLS.png
     link: "./docs/ECE455-Project1-TLS-Report_2025.pdf"
