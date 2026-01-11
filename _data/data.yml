@@ -228,12 +228,15 @@ skills:
   - name: 3D CAD / Modeling
     level: 75%
 
+  - name: Git
+    level: 85%
+
   - name: Matlab
     level: 65%
 
   - name: Altium Designer
     level: 50%
-    
+
   - name: Electronics test equipment
     level: 85%
 
